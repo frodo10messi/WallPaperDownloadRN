@@ -54,7 +54,7 @@ const { height, width } = Dimensions.get('window');
     }).catch((err)=>{
       console.log(err)
     }).finally(()=>{
-      console.log("request is completed")
+      console.log("request is completed by the promise")
     })
   }
 
